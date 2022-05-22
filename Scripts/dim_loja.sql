@@ -1,6 +1,5 @@
 create table dim_viagem (
-	sk_loja INT PRIMARY KEY,
-	nk_loja INT,
+	cod_loja INT PRIMARY KEY,
 	cidade VARCHAR(14),
 	bairro VARCHAR(17)
 );
