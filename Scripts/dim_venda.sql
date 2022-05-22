@@ -1,0 +1,111 @@
+create table dim_venda (
+	cod_passagem INT,
+	cod_viagem INT,
+	cod_cliente INT,
+	cod_loja INT,
+	cod_funcionario INT
+	FOREIGN KEY (cod_viagem) REFERENCES dim_viagem (cod_cliente),
+	FOREIGN KEY (cod_cliente) REFERENCES dim_cliente (cod_cliente),
+	FOREIGN KEY (cod_loja) REFERENCES dim_loja (cod_loja),
+	FOREIGN KEY (cod_funcionario) REFERENCES dim_funcionario (cod_funcionario),
+);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (1, 29, 9, 21, 39);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (2, 80, 10, 19, 59);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (3, 76, 48, 6, 89);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (4, 48, 85, 10, 67);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (5, 27, 53, 44, 3);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (6, 22, 12, 34, 36);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (7, 70, 3, 2, 98);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (8, 86, 45, 39, 9);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (9, 25, 94, 79, 29);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (10, 88, 50, 3, 22);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (11, 50, 79, 80, 88);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (12, 60, 77, 11, 92);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (13, 39, 74, 4, 22);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (14, 66, 50, 84, 20);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (15, 21, 78, 52, 20);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (16, 95, 95, 20, 11);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (17, 89, 16, 38, 10);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (18, 5, 60, 8, 47);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (19, 43, 42, 18, 38);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (20, 94, 56, 82, 37);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (21, 90, 35, 11, 88);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (22, 15, 15, 80, 69);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (23, 42, 42, 54, 77);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (24, 55, 11, 43, 98);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (25, 84, 37, 48, 15);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (26, 58, 41, 67, 65);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (27, 53, 43, 92, 28);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (28, 25, 92, 70, 68);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (29, 28, 20, 91, 38);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (30, 51, 46, 26, 51);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (31, 70, 43, 88, 42);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (32, 93, 51, 56, 21);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (33, 49, 80, 28, 86);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (34, 12, 85, 75, 14);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (35, 48, 98, 89, 69);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (36, 18, 72, 55, 91);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (37, 79, 26, 41, 82);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (38, 77, 41, 26, 27);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (39, 91, 91, 59, 83);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (40, 2, 41, 44, 2);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (41, 34, 76, 62, 3);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (42, 45, 28, 24, 77);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (43, 85, 49, 14, 73);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (44, 45, 10, 34, 56);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (45, 40, 79, 77, 96);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (46, 44, 7, 100, 67);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (47, 79, 40, 60, 15);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (48, 100, 36, 23, 34);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (49, 89, 24, 94, 49);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (50, 59, 11, 80, 22);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (51, 26, 13, 21, 43);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (52, 9, 34, 13, 72);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (53, 93, 12, 96, 26);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (54, 75, 4, 90, 67);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (55, 79, 45, 45, 66);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (56, 72, 1, 37, 70);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (57, 21, 41, 22, 69);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (58, 68, 18, 46, 32);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (59, 56, 37, 63, 4);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (60, 73, 73, 34, 68);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (61, 84, 25, 22, 15);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (62, 26, 12, 3, 53);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (63, 93, 46, 53, 33);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (64, 42, 46, 45, 67);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (65, 36, 74, 99, 84);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (66, 94, 82, 3, 52);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (67, 34, 87, 10, 99);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (68, 27, 36, 10, 40);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (69, 16, 29, 65, 95);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (70, 53, 55, 26, 33);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (71, 1, 41, 9, 85);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (72, 22, 77, 30, 27);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (73, 47, 39, 10, 9);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (74, 12, 44, 78, 66);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (75, 92, 40, 63, 81);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (76, 93, 69, 93, 88);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (77, 82, 74, 18, 58);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (78, 8, 69, 70, 47);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (79, 3, 89, 81, 81);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (80, 37, 26, 88, 18);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (81, 52, 62, 99, 93);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (82, 54, 56, 30, 43);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (83, 79, 29, 96, 2);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (84, 44, 17, 43, 97);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (85, 60, 70, 40, 93);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (86, 82, 72, 77, 39);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (87, 82, 10, 82, 4);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (88, 10, 17, 34, 43);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (89, 68, 5, 13, 26);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (90, 3, 53, 23, 39);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (91, 67, 5, 5, 81);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (92, 45, 49, 91, 53);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (93, 76, 2, 56, 80);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (94, 29, 57, 86, 74);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (95, 60, 76, 91, 100);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (96, 69, 2, 74, 17);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (97, 24, 2, 53, 2);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (98, 47, 69, 61, 91);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (99, 15, 49, 14, 26);
+insert into dim_venda (cod_passagem, cod_viagem, cod_cliente, cod_loja, cod_funcionario) values (100, 88, 4, 27, 6);
